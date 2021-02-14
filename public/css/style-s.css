@@ -1,0 +1,20 @@
+.status-pengajuan {
+  border-radius: 15px;
+  background-color: #17a2b8;
+  text-align: center;
+  color: white;
+}
+
+.status-proses {
+  border-radius: 15px;
+  background-color: #ffc107;
+  text-align: center;
+  color: white;
+}
+
+.status-selesai {
+  border-radius: 15px;
+  background-color: #28a745;
+  text-align: center;
+  color: white;
+}
