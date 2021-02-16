@@ -41,9 +41,9 @@ $RECYCLE.BIN/
 #-------------------------
 # These should never be under version control,
 # as it poses a security risk.
-.env
-.vagrant
-Vagrantfile
+# .env
+# .vagrant
+# Vagrantfile
 
 #-------------------------
 # Temporary Files
@@ -75,15 +75,15 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 #-------------------------
 # Test Files
 #-------------------------
-tests/coverage*
+# tests/coverage*
 
 # Don't save phpunit under version control.
-phpunit
+# phpunit
 
 #-------------------------
 # Composer
 #-------------------------
-vendor/
+# vendor/
 
 #-------------------------
 # IDE / Development Files
@@ -93,7 +93,7 @@ vendor/
 _modules/*
 
 # phpenv local config
-.php-version
+# .php-version
 
 # Jetbrains editors (PHPStorm, etc)
 .idea/
@@ -103,7 +103,7 @@ _modules/*
 nbproject/
 build/
 nbbuild/
-dist/
+# dist/
 nbdist/
 nbactions.xml
 nb-configuration.xml
@@ -115,8 +115,8 @@ nb-configuration.xml
 *.stTheme.cache
 *.sublime-workspace
 *.sublime-project
-.phpintel
-/api/
+# .phpintel
+# /api/
 
 # Visual Studio Code
 .vscode/
@@ -125,6 +125,8 @@ nb-configuration.xml
 /phpunit*.xml
 /.phpunit.*.cache
 
-tests/
+# tests/
 
-/public/files/
+/public/files/KTP/
+/public/files/KK/
+/public/files/SKPindah/
