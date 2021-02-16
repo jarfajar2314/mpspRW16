@@ -124,9 +124,3 @@ nb-configuration.xml
 /results/
 /phpunit*.xml
 /.phpunit.*.cache
-
-# tests/
-
-/public/files/KTP/
-/public/files/KK/
-/public/files/SKPindah/
